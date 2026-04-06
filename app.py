@@ -51,7 +51,8 @@ FEATURE_NAMES = [
 ]
 
 # ---------------- LOAD ---------------- #
-model = load_model("model/septic_model.h5")
+model = load_model("model = load_model("model/septic_model.keras", compile=False)
+")
 scaler = pickle.load(open("Notebook/scaler.pkl", "rb"))
 
 st.set_page_config(layout="wide")
